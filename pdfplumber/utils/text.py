@@ -324,6 +324,7 @@ class WordExtractor:
             "bottom": bottom,
             "upright": upright,
             "direction": direction,
+            "ordered_chars": ordered_chars,
         }
 
         for key in self.extra_attrs:
